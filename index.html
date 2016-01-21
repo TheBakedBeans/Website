@@ -49,19 +49,40 @@
 					</div>
 				</div>
 			</div>
-
+			
+			<!-- Content Hover 4 col layout ===============--->
 				<div class ="row">
 					<div class="col-xs-3">
-						<img src="test.jpg" class="img-responsive" alt="Cinque Terre"> 
+						<img id="pic1" src="test.jpg" class="img-responsive" alt="Cinque Terre"> 
+						<div class="contenthover">
+							<h3>Random Shit can go here</h3>
+							<p>This is full of useless crap </p>
+							<p><a href="#" class="mybutton">Learn More</a></p>
+						</div>
 					</div>
 					<div class="col-xs-3">
-						<img src="test2.jpg" class="img-responsive" alt="Cinque Terre"> 
+						<img id="pic2" src="test2.jpg" class="img-responsive" alt="Cinque Terre"> 
+						<div class="contenthover">
+							<h3>Random Shit can go here</h3>
+							<p>This is full of useless crap </p>
+							<p><a href="#" class="mybutton">Learn More</a></p>
+						</div>
 					</div>
 					<div class="col-xs-3">
-						<img src="test3.jpg" class="img-responsive" alt="Cinque Terre"> 
+						<img id="pic3" src="test3.jpg" class="img-responsive" alt="Cinque Terre">
+						<div class="contenthover">
+							<h3>Random Shit can go here</h3>
+							<p>This is full of useless crap </p>
+							<p><a href="#" class="mybutton">Learn More</a></p>
+						</div>						
 					</div>
 					<div class="col-xs-3">
-						<img src="test4.jpg" class="img-responsive" alt="Cinque Terre"> 
+						<img id="pic4" src="test4.jpg" class="img-responsive" alt="Cinque Terre"> 
+						<div class="contenthover">
+							<h3>Random Shit can go here</h3>
+							<p>This is full of useless crap</p>
+							<p><a href="#" class="mybutton">Learn More</a></p>
+						</div>
 					</div>
 				</div>
 
@@ -81,5 +102,35 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+	<!-- Added script for Content Hover -->
+	<script src="js/contentHover.js"></script>
+
+	
+	<script type="text/javascript">
+		$('document').ready(function(){
+			$('#pic1').contenthover({
+			overlay_background:'#000',
+			overlay_opacity:0.8
+			});
+		});
+		$('document').ready(function(){
+			$('#pic2').contenthover({
+			overlay_background:'#000',
+			overlay_opacity:0.8
+			});
+		});
+		$('document').ready(function(){
+			$('#pic3').contenthover({
+			overlay_background:'#000',
+			overlay_opacity:0.8
+			});
+		});
+		$('document').ready(function(){
+			$('#pic4').contenthover({
+			overlay_background:'#000',
+			overlay_opacity:0.8
+			});
+		});
+	</script>
   </body>
 </html>
