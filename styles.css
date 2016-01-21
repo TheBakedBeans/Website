@@ -1,13 +1,12 @@
 .col-xs-3{
-	height: 700px;
 	background-color: grey;
 	color: white;
 	text-align: center;
 	border: 2px solid black;
+	padding: 0;
 }
 
 .info{
-	height: 80px;
 	background-color: black;
 	color: red;
 	text-align: center;
@@ -24,4 +23,8 @@
 
 .jumbotron {
 	padding-top: 10px;
+}
+
+.row h1 {
+	padding-right;
 }
