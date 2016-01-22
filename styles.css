@@ -16,6 +16,11 @@ body.register-page{
 	background:url("bg.jpg") no-repeat;
 }
 
+
+body.login-page{
+	background:url("bg2.jpg") no-repeat;
+}
+
 .col-xs-3{
 	background-color: grey;
 	color: white;
@@ -40,7 +45,9 @@ body.register-page{
 }
 
 .jumbotron {
+	margin-bottom:0;
 	padding-top: 1%;
+
 }
 
 .row h1 {
