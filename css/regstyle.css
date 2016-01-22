@@ -6,12 +6,6 @@ body {
 
 strong { font-weight: 500; }
 
-a, a:hover, a:focus {
-	color: #19b9e7;
-	text-decoration: none;
-    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
-}
-
 h1, h2 {
 	margin-top: 10px;
 	font-size: 38px;
@@ -76,11 +70,11 @@ img { max-width: 100%; }
 /***** Top content *****/
 
 .inner-bg {
-    padding: 120px 0 170px 0;
+    padding: 10px 0 45px 0;
 }
 
 .top-content .text {
-	padding-top: 120px;
+	padding-top: 25%;
 	color: #fff;
 }
 
@@ -104,7 +98,7 @@ img { max-width: 100%; }
 
 .form-top {
 	overflow: hidden;
-	padding: 0 25px 15px 25px;
+	padding: 0 25px 7px 25px;
 	background: #fff;
 	-moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
 	text-align: left;
@@ -137,6 +131,10 @@ img { max-width: 100%; }
 
 .form-bottom form textarea {
 	height: 100px;
+}
+
+.form-group{
+	margin-bottom: 7px;
 }
 
 .form-bottom form .input-error {
