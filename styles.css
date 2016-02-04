@@ -115,6 +115,26 @@ position:relative;
 transition:all .4s linear;
 }
 
+#headerImg {
+	width:100%;
+	position:relative;
+	margin-bottom: 20px;
+}
+
+#headerImgOverlay {
+	position: absolute;
+	margin-left: 10%;
+	top: 15px;
+	padding: 20px;
+}
+
+#headerImgOverlay span {
+	color: white;
+	background-color: rgba(255, 255, 240, .2);
+	padding: 10px;
+	font-size: 100px;
+}
+
 .hovereffect h2 {
 text-transform:uppercase;
 color:#fff;
@@ -171,4 +191,18 @@ transform:translatey(0);
 .hovereffect:hover a.info {
 -webkit-transition-delay:.2s;
 transition-delay:.2s;
+}
+
+#content {
+	padding:2%;
+	width:70%;
+	float:left;
+}
+
+#aside {
+	float:right;
+	width: 20%;
+	padding: 2%;
+	background-color: grey;
+	margin-right: 20px
 }
