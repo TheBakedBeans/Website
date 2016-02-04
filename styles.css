@@ -115,26 +115,6 @@ position:relative;
 transition:all .4s linear;
 }
 
-#headerImg {
-	width:100%;
-	position:relative;
-	margin-bottom: 20px;
-}
-
-#headerImgOverlay {
-	position: absolute;
-	margin-left: 10%;
-	top: 15px;
-	padding: 20px;
-}
-
-#headerImgOverlay span {
-	color: white;
-	background-color: rgba(255, 255, 240, .2);
-	padding: 10px;
-	font-size: 100px;
-}
-
 .hovereffect h2 {
 text-transform:uppercase;
 color:#fff;
@@ -193,6 +173,27 @@ transform:translatey(0);
 transition-delay:.2s;
 }
 
+/*Conference pages*/
+#headerImg {
+	width:100%;
+	position:relative;
+	margin-bottom: 20px;
+}
+
+#headerImgOverlay {
+	position: absolute;
+	margin-left: 10%;
+	top: 15px;
+	padding: 20px;
+}
+
+#headerImgOverlay span {
+	color: white;
+	background-color: rgba(255, 255, 240, .2);
+	padding: 10px;
+	font-size: 100px;
+}
+
 #content {
 	padding:2%;
 	width:70%;
@@ -206,3 +207,5 @@ transition-delay:.2s;
 	background-color: grey;
 	margin-right: 20px
 }
+/*End Conference Pages*/
+
